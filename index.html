@@ -2,206 +2,21 @@
 <html lang="sv" dir="ltr">
   <head>
     <link rel="icon" href="\img\stuga17logo.png">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157978149-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157978149-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-157978149-1');
-    </script>
+  gtag('config', 'UA-157978149-1');
+</script>
     <meta charset="utf-8">
-    <title>Stugan</title>
+    <title></title>
   </head>
   <body>
     <font font face = "Comic sans MS" size="4">
-    <table cellspacing="0">
-      <tr>
-        <td><a href="stuga17"><img src="/img/stuga17knapp.png" width="50%"></a></td>
-        <td><a href="stuga43"><img src="/img/stuga43knapp.png" width="60%"></a></td>
-          <td><a href="skjul17"><img src="/img/skjul17logo.png" width="150" height="130"></a></td>
-        <td><a href="gastboken1920"><img src="/img/gastboken1920.png" width=80%></a></td>
-        <td><a href="gastboken"><img src="/img/gastboken.png" width=80%></a></td>
-      </tr>
-    </table>
-    <table>
-      <td><audio id="bruh" src="/sounds/bruh.mp3" preload="auto"></audio></td>
-    <tr>
-      <td><a href="handelser"><img src="/img/handelser.png"></a></td>
-      <td><a href="hedersgaster"><img src="/img/hedersgaster.png" width="65%"></a></td>
-    </tr>
-  <button onclick="document.getElementById('bruh').play();">Bruh</button>
-
-<table>
-  <td>
-  <p>rip kirunaresan</p>
-  <!--<p id="kirunatimer"></p>-->
-  <!--<p>tagga fejden på våren, hoppas det inte blir en vit fejd </p>-->
-  <p>rip fejden</p>
-  <!--<p id="fejdentimer"></p>-->
-  <p>det blir tyvärr inte vår... (för oss iaf (sadface))</p>
-  <!--<p id="domdtimer"></p>-->
-</td>
-
-</table>
-
-  <table>
-    <tr>
-      <td>
-        <!-- Add a placeholder for the Twitch embed -->
-        <div id="twitch-embed"></div>
-
-        <!-- Load the Twitch embed script -->
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-        <script type="text/javascript">
-          new Twitch.Embed("twitch-embed", {
-            width: 854,
-            height: 480,
-            channel: "monstercat",
-            // only needed if your site is also embedded on embed.example.com and othersite.example.com
-            parent: ["embed.example.com", "othersite.example.com"]
-          });
-        </script>
-      </td>
-
-
-
-      <td>
-        <table max_width=100 border="1" class="table">
-        <tr>
-            <td>Instagram</td>
-              <td> <a target="_blank" href="https://instagram.com/stuga17"> stuga17 </a> </td>
-        </tr>
-        <tr>
-            <td>Twitch</td>
-              <td> <a target="_blank" href="https://twitch.tv/stuga17"> stuga17 </a> </td>
-        </tr>
-        <tr>
-          <td>Facebook</td>
-          <td> <a target="_blank" href="https://www.facebook.com/stuga17"> Stuga 17 </a> </td>
-        </tr>
-        <tr>
-            <td>E-mail</td>
-            <td><a href="mailto:bruh@stugan.wtf">bruh@stugan.wtf</a></td>
-        </tr>
-      </table>
-
-
-      </td>
-      <td>
-        <table max_width=100 border="1" class="table">
-          <td> <img src="/img/bong.png" width="50%"></td>
-          <td> <img src="/img/fuckthecolorblind.png" width="50%"></td>
-        </table>
-      </td>
-
-
-
-    </tr>
-  </table>
-      <!-- Display the countdown timer in an element -->
-
-    <script>
-    // Set the date we're counting down to
-    var fejdencountDownDate = new Date("May 11, 2021 14:00:00").getTime();
-
-    // Update the count down every 1 second
-    var fejdenx = setInterval(function() {
-
-      // Get today's date and time
-      var fejdennow = new Date().getTime();
-
-      // Find the distance between now and the count down date
-      var fejdendistance = fejdencountDownDate - fejdennow;
-
-      // Time calculations for days, hours, minutes and seconds
-      var fejdendays = Math.floor(fejdendistance / (1000 * 60 * 60 * 24));
-      var fejdenhours = Math.floor((fejdendistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var fejdenminutes = Math.floor((fejdendistance % (1000 * 60 * 60)) / (1000 * 60));
-      var fejdenseconds = Math.floor((fejdendistance % (1000 * 60)) / 1000);
-
-      // Display the result in the element with id="demo"
-      document.getElementById("fejdentimer").innerHTML = fejdendays + "d " + fejdenhours + "h "
-      + fejdenminutes + "m " + fejdenseconds + "s kvar tills Lappfejden.";
-
-      // If the count down is finished, write some text
-      if (fejdendistance < 0) {
-        clearInterval(x);
-        document.getElementById("fejdentimer").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-    </script>
-  </table>
-
-
-      <!-- Display the countdown timer in an element -->
-
-
-    <script>
-    // Set the date we're counting down to
-    var domdcountDownDate = new Date("Apri 15, 2021 09:00:00").getTime();
-
-    // Update the count down every 1 second
-    var domdx = setInterval(function() {
-
-      // Get today's date and time
-      var domdnow = new Date().getTime();
-
-      // Find the distance between now and the count down date
-      var domddistance = domdcountDownDate - domdnow;
-
-      // Time calculations for days, hours, minutes and seconds
-      var domddays = Math.floor(domddistance / (1000 * 60 * 60 * 24));
-      var domdhours = Math.floor((domddistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var domdminutes = Math.floor((domddistance % (1000 * 60 * 60)) / (1000 * 60));
-      var domdseconds = Math.floor((domddistance % (1000 * 60)) / 1000);
-
-      // Display the result in the element with id="demo"
-      document.getElementById("domdtimer").innerHTML = domddays + "d " + domdhours + "h "
-      + domdminutes + "m " + domdseconds + "s kvar tills DÖMD.";
-
-      // If the count down is finished, write some text
-      if (domddistance < 0) {
-        clearInterval(x);
-        document.getElementById("domdtimer").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-    </script>
-
-    <script>
-    // Set the date we're counting down to
-    var kirunacountDownDate = new Date("Oct 7, 2020 09:00:00").getTime();
-
-    // Update the count down every 1 second
-    var kirunax = setInterval(function() {
-
-      // Get today's date and time
-      var kirunanow = new Date().getTime();
-
-      // Find the distance between now and the count down date
-      var kirunadistance = kirunacountDownDate - kirunanow;
-
-      // Time calculations for days, hours, minutes and seconds
-      var kirunadays = Math.floor(kirunadistance / (1000 * 60 * 60 * 24));
-      var kirunahours = Math.floor((kirunadistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var kirunaminutes = Math.floor((kirunadistance % (1000 * 60 * 60)) / (1000 * 60));
-      var kirunaseconds = Math.floor((kirunadistance % (1000 * 60)) / 1000);
-
-      // Display the result in the element with id="demo"
-      document.getElementById("kirunatimer").innerHTML = kirunadays + "d " + kirunahours + "h "
-      + kirunaminutes + "m " + kirunaseconds + "s kvar tills Kirunaresan.";
-
-      // If the count down is finished, write some text
-      if (kirunadistance < 0) {
-        clearInterval(x);
-        document.getElementById("kirunatimer").innerHTML = "EXPIRED";
-      }
-    }, 1000);
-    </script>
-
+    <button onclick="window.location.href = 'index';">Tillbaka</button>
 
   </body>
 </html>
