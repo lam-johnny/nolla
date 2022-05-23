@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'comic_sans_msregular';
+  src: url('comic-webfont.woff2') format('woff2'),
+    url('comic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
