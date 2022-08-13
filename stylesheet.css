@@ -28,3 +28,24 @@ mark {
   background-color: black;
   color: white;
 }
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0.2rem 1.7rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1rem;
+}
