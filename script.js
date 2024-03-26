@@ -5,7 +5,7 @@ var stopConfetti; //call to stop adding confetti
 var toggleConfetti; //call to start or stop the confetti animation depending on whether it's already running
 var removeConfetti; //call to stop the confetti animation and remove all confetti immediately
 
-const fejden = "17 August, 2022 11:00:00";
+const fejden = "21 August, 2024 09:00:00";
 
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
